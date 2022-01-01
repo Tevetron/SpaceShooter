@@ -1,0 +1,299 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p_",
+				"p_velocityY"
+			],
+			[
+				"v",
+				"velocityY"
+			],
+			[
+				"math",
+				"cmath"
+			]
+		]
+	},
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packagecontrol:instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packageresource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package control:insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/src/player.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/include/Player.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/include/Bullet.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/src/bullet.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/include/RenderWindow.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/src/renderwindow.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/src/main.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/include/Math.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/include/Entity.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/src/entity.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/src/asteroid.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/src/trash.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/Rough/src/entity.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/Rough/include/Entity.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/Rough/include/Player.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/Rough/src/main.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/Rough/src/player.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/Rough/src/renderwindow.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/Rough/include/RenderWindow.hpp",
+		"/C/Users/friedj/Documents/Code/Data Structures/Homeworks/Homework10/tmp.png",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/TurtleScroller/include/RenderWindow.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/TurtleScroller/src/renderwindow.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/spaceshooter/include/Math.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/spaceshooter/bin/debug/main.exe",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/sidescroller/include/jellyfish.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/sidescroller/include/trash.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/sidescroller/include/Player.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/sidescroller/include/Math.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/sidescroller/include/Entity.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/sidescroller/src/entity.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/sidescroller/src/player.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/2D Platformer/include/Math.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/2D Platformer/src/input.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/2D Platformer/src/entity.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/2D Platformer/include/Utils.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/2D Platformer/src/main.cpp",
+		"/C/Users/friedj/AppData/Roaming/Sublime Text/Packages/Default/exec.py",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/2D Platformer/src/renderwindow.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/2D Platformer/src/math.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/2D Platformer/include/Entity.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/2D Platformer/include/math.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/2D Platformer/include/RenderWindow.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/2D Platformer/2D-PlatformerSDL.sublime-project",
+		"/C/Users/friedj/Documents/Data Structures/Labs/Lab8/checkpoint4.cpp",
+		"/C/Users/friedj/Documents/Data Structures/Labs/Lab8/main.cpp",
+		"/C/Users/friedj/Documents/Data Structures/Labs/Lab8/superhero.cpp",
+		"/C/Users/friedj/Documents/Data Structures/Labs/Lab8/superhero.h",
+		"/C/Users/friedj/Documents/Data Structures/Labs/Lab8/team.cpp",
+		"/C/Users/friedj/Documents/Data Structures/Labs/Lab8/team.h",
+		"/C/Users/friedj/Documents/Data Structures/Labs/Lab8/main_checkpoint_1_and_2.cpp",
+		"/C/Users/friedj/Documents/Data Structures/Homeworks/Homework5/grid.h",
+		"/C/Users/friedj/Documents/Data Structures/Homeworks/Homework5/main.cpp",
+		"/C/Users/friedj/Documents/Data Structures/Labs/Lab6/dslist.h",
+		"/C/Users/friedj/Documents/Data Structures/Homeworks/Homework4/solution.cpp",
+		"/C/Users/friedj/Documents/Data Structures/Homeworks/Homework4/solution.h",
+		"/C/Users/friedj/Documents/Data Structures/Homeworks/Homework4/render.cpp",
+		"/C/Users/friedj/Documents/Data Structures/Homeworks/Homework4/input_output.cpp",
+		"/C/Users/friedj/Documents/Data Structures/Homeworks/Homework4/output_sample_original.diff",
+		"/C/Users/friedj/Documents/Data Structures/Homeworks/Homework4/diff.h",
+		"/C/Users/friedj/Documents/Data Structures/Homeworks/Homework4/main.cpp",
+		"/C/Users/friedj/Documents/Data Structures/Homeworks/Homework4/recursive.cpp",
+		"/C/Users/friedj/Documents/Data Structures/Homeworks/Homework4/output_original_sample.diff",
+		"/C/Users/friedj/Documents/Data Structures/Homeworks/Homework4/nonbroken.cpp",
+		"/C/Users/friedj/Documents/Data Structures/Homeworks/solution.cpp",
+		"/C/Users/friedj/Documents/Data Structures/Homeworks/Homework4/testing.cpp",
+		"/C/Users/friedj/Documents/Data Structures/Labs/Lab6/checkpoint1.cpp"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"player",
+			"x",
+			"bullets",
+			"render(",
+			"render",
+			"get",
+			"event",
+			"update",
+			"Bullet",
+			"query",
+			"trash",
+			"rotation",
+			"window",
+			"while(acc",
+			"entities",
+			"update",
+			"player",
+			"#prag",
+			"event",
+			"self.append",
+			"pEntity",
+			"pFilePath",
+			"pHeight",
+			"pWidth",
+			"pTitle",
+			"Texture",
+			"def finish",
+			"grid<t>",
+			"friend",
+			"operator==",
+			"==",
+			"operator",
+			"assert",
+			"on the top",
+			"itr",
+			"begin()",
+			"end()",
+			"lift",
+			"side",
+			"reset",
+			"g.destroy",
+			"assert (*itr",
+			"assert",
+			"int main",
+			"copy",
+			"print",
+			"dilf1",
+			"erase",
+			"insert",
+			"destroy",
+			"destr"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"getRotation()",
+			"p_entity",
+			"p_filePath",
+			"p_height",
+			"p_width",
+			"p_title",
+			"diff"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 264.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Build Debug",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

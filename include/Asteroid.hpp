@@ -12,7 +12,7 @@ class Asteroid : public Entity {
 public:
 	Asteroid(Vector2f p_pos, SDL_Texture* p_texture, double spin, float p_velocityX, float p_velocityY);
 	void wrap();
-	void update();
+	void update(const float alpha);
 private:
 	float velocityX, velocityY;
 	double spin;

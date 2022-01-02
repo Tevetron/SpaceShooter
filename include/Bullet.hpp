@@ -11,7 +11,7 @@ using namespace std;
 class Bullet {
 public:
 	Bullet();
-	void update();
+	void update(const float alpha);
 	void push(Entity e) { bullets.push_front(e); }
 	unsigned int size() { return bullets.size(); }
 	list<Entity>& getList() { return bullets; }

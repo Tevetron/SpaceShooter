@@ -12,8 +12,9 @@ using namespace std;
 class Player : public Entity {
 public:
 	Player(Vector2f p_pos, SDL_Texture* p_texture);
+	void stopMovement();
 	void clamp();
-	void update();
+	void update(const float alpha);
 	void keyUp(SDL_KeyboardEvent *event);
 	void keyDown(SDL_KeyboardEvent *event);
 	void shoot(SDL_MouseButtonEvent *event, Bullet &bullets, SDL_Texture* bulletTexture);

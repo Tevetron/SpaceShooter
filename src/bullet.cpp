@@ -11,9 +11,9 @@ Bullet::Bullet() {
 	bullets = temp;
 }
 
-void Bullet::update() {
+void Bullet::update(const float alpha) {
 	for(auto itr = bullets.begin(); itr != bullets.end(); itr++) {
-		(*itr).getPos().x += (*itr).getVX();
-		(*itr).getPos().y += (*itr).getVY();
+		(*itr).getPos().x += (*itr).getVX() * alpha;
+		(*itr).getPos().y += (*itr).getVY() * alpha;
 	}
 }

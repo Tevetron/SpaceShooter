@@ -13,6 +13,7 @@ public:
 	int getRefreshRate();
 	void clear();
 	void render(Entity& pEntity);
+	void render(std::string &m);
 	void display();
 private:
 	SDL_Window* window;

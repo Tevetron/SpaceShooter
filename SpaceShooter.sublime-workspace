@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"p_ve",
+				"p_velocityY"
+			],
+			[
+				"velo",
+				"velocityY"
+			],
+			[
 				"p_",
 				"p_velocityY"
 			],
@@ -77,17 +85,18 @@
 	},
 	"file_history":
 	[
-		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/src/player.cpp",
-		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/include/Player.hpp",
-		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/include/Bullet.hpp",
-		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/src/bullet.cpp",
-		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/include/RenderWindow.hpp",
-		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/src/renderwindow.cpp",
 		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/src/main.cpp",
-		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/include/Math.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/include/Player.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/src/player.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/src/asteroid.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/src/bullet.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/include/Bullet.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/include/Asteroid.hpp",
 		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/include/Entity.hpp",
 		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/src/entity.cpp",
-		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/src/asteroid.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/src/renderwindow.cpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/include/RenderWindow.hpp",
+		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/include/Math.hpp",
 		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/SpaceShooter/src/trash.cpp",
 		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/Rough/src/entity.cpp",
 		"/C/Users/friedj/Documents/Code/Projects/C++/SDL2/Rough/include/Entity.hpp",
@@ -146,7 +155,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -160,6 +169,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"startTicks",
+			"start",
+			"gaming = false",
+			"\t\n",
+			"renderer",
+			"update",
+			") ",
+			"asteroid",
 			"player",
 			"x",
 			"bullets",
@@ -236,7 +253,7 @@
 	},
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -254,7 +271,7 @@
 	"pinned_build_system": "Build Debug",
 	"replace":
 	{
-		"height": 52.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":

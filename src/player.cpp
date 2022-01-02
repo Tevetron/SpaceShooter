@@ -12,6 +12,14 @@ using namespace std;
 
 Player::Player(Vector2f p_pos, SDL_Texture* p_texture)
 :Entity{ p_pos, p_texture } {
+	getRotation() = -90;
+	right = false;
+	left = false;
+	up = false;
+	down = false;
+}
+
+void Player::stopMovement() {
 	right = false;
 	left = false;
 	up = false;
@@ -88,19 +96,19 @@ void Player::shoot(SDL_MouseButtonEvent *event, Bullet &bullets, SDL_Texture* bu
 		int mouseY = 0;
 		SDL_GetMouseState(&mouseX, &mouseY);	
 		float rot = atan2(mouseY - getPos().y, mouseX - getPos().x) - (PI / 2);
-		float velY = 5 * std::cos(rot);
-		float velX = -5 * std::sin(rot);
+		float velY = 20 * std::cos(rot);
+		float velX = -20 * std::sin(rot);
 		bullets.push(Entity(Vector2f(getPos().x + 7, getPos().y + 6), bulletTexture, velX, velY));
 	}
 }
 
-void Player::update() {
+void Player::update(const float alpha) {
 	int mouseX = 0;
 	int mouseY = 0;
-	if(up) { getPos().y -= 2; }
-	if(down) { getPos().y += 2; }
-	if(left) { getPos().x -= 2; }
-	if(right) { getPos().x += 2; }
+	if(up) { getPos().y -= 5 * alpha; }
+	if(down) { getPos().y += 5 * alpha; }
+	if(left) { getPos().x -= 5 * alpha; }
+	if(right) { getPos().x += 5 * alpha; }
 	SDL_GetMouseState(&mouseX, &mouseY);
 	getRotation() = atan2(mouseY - getPos().y, mouseX - getPos().x) * 180 / PI;
 	clamp();

@@ -13,19 +13,19 @@ Asteroid::Asteroid(Vector2f p_pos, SDL_Texture* p_texture, double p_spin, float 
 }
 
 void Asteroid::wrap() {
-	if(getPos().x < 0)
+	if(getPos().x < (0 - 160))
 		getPos().x = 1280;
 	if(getPos().x > 1280)
-		getPos().x = 0;
-	if(getPos().y < 0)
+		getPos().x = (0 - 160);
+	if(getPos().y < (0 - 160))
 		getPos().y = 720;
 	if(getPos().y > 720)
-		getPos().y = 0;
+		getPos().y = (0 - 160);
 }
 
-void Asteroid::update() {
-	getRotation() += spin;
-	getPos().x += velocityX;
-	getPos().y += velocityY;
+void Asteroid::update(const float alpha) {
+	getRotation() += spin * alpha;
+	getPos().x += velocityX * alpha;
+	getPos().y += velocityY * alpha;
 	wrap();
 }

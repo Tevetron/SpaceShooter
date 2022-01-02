@@ -2,8 +2,10 @@
 #include <SDL2/SDL_image.h>
 #include <iostream>
 #include <vector>
-#include <stdlib.h>
-#include <math.h>
+#include <cstdlib>
+#include <cmath>
+#include <ctime>
+#include <experimental/random>
 
 #include "RenderWindow.hpp"
 #include "Entity.hpp"
@@ -32,7 +34,8 @@ bool collided(Entity& bullet, Asteroid& asteroid) {
 }
 
 int main(int argc, char* args[]) {
-	
+	srand(time(0));
+
 	RenderWindow window("SpaceShooter v2.0", 1280, 720);
 	SDL_Texture* playerTexture = window.loadTexture("res/gfx/ship.png");
 	SDL_Texture* asteroidTexture = window.loadTexture("res/gfx/rock.png");
@@ -42,7 +45,12 @@ int main(int argc, char* args[]) {
 	list<Asteroid> asteroids;
 	Bullet bullets;
 	for(int i = 0; i < 6; i++) {
-		Asteroid asteroid(Vector2f(rand() % (1280 - 160), rand() % (720 - 160)), asteroidTexture);
+		Asteroid asteroid(
+			Vector2f(rand() % (1280 - 160), rand() % (720 - 160)),
+			asteroidTexture, 
+			(rand() % 10) - 5, 
+			(rand() % 10) - 5, 
+			(rand() % 10) - 5);
 		asteroids.push_back(asteroid);
 	}
 	bool gaming = true;

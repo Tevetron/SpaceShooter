@@ -16,8 +16,10 @@
 using namespace std;
 
 bool collided(Player& player, Asteroid& asteroid) {
-	float dx = (player.getPos().x + 8) - (asteroid.getPos().x + 70);
-	float dy = (player.getPos().y + 8) - (asteroid.getPos().y + 70);
+	float dx = (player.getPos().x + player.getCurrentFrame().w / 2) 
+	- (asteroid.getPos().x + (asteroid.getCurrentFrame().w / 2 + 10));
+	float dy = (player.getPos().y + player.getCurrentFrame().h / 2) 
+	- (asteroid.getPos().y + (asteroid.getCurrentFrame().h / 2 + 10));
 	float distance = sqrt(dx * dx + dy * dy);
 	if(distance < 78)
 		return true;
@@ -25,8 +27,8 @@ bool collided(Player& player, Asteroid& asteroid) {
 }
 
 bool collided(Entity& bullet, Asteroid& asteroid) {
-	float dx = (bullet.getPos().x) - (asteroid.getPos().x + 70);
-	float dy = (bullet.getPos().y) - (asteroid.getPos().y + 70);
+	float dx = (bullet.getPos().x) - (asteroid.getPos().x + (asteroid.getCurrentFrame().w / 2 + 10));
+	float dy = (bullet.getPos().y) - (asteroid.getPos().y + (asteroid.getCurrentFrame().h / 2 + 10));
 	float distance = sqrt(dx * dx + dy * dy);
 	if(distance < 70)
 		return true;
